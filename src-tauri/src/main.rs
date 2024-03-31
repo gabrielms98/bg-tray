@@ -32,7 +32,7 @@ fn main() {
                         window.hide().unwrap();
                     } else {
                         window.show().unwrap();
-                        window.set_focus().unwrap();
+                        // window.set_focus().unwrap();
                     }
                 }
                 _ => {}
