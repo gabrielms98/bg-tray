@@ -17,11 +17,24 @@
         "open": true
       }
     },
+    "systemTray": {
+      "iconAsTemplate": true,
+      "iconPath": "icons/icon.png",
+      "menuOnLeftClick": false
+    },
     "windows": [
       {
-        "title": "bg-tray",
-        "width": 800,
-        "height": 600
+        "title": "Background Remover",
+        "width": 280,
+        "height": 354,
+        "resizable": false,
+        "fullscreen": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "decorations": false,
+        "hiddenTitle": true,
+        "visible": false,
+        "minimizable": false
       }
     ],
     "security": {
@@ -38,6 +51,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ]
-    }
+    },
+    "macOSPrivateApi": true
   }
 }
