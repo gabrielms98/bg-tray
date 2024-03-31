@@ -30,11 +30,12 @@
         "resizable": false,
         "fullscreen": false,
         "transparent": true,
-        "alwaysOnTop": true,
+        "alwaysOnTop": false,
         "decorations": false,
         "hiddenTitle": true,
         "visible": false,
-        "minimizable": false
+        "minimizable": false,
+        "focus": false
       }
     ],
     "security": {
